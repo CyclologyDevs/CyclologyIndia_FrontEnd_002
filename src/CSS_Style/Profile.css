@@ -1,0 +1,23 @@
+.m {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.image-upload > input {
+  display: none;
+}
+
+.editform span {
+  font-size: 16px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border: 3px solid red;
+  outline: none;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}

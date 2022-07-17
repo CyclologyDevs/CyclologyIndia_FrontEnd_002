@@ -1,0 +1,11 @@
+
+POST http://153.92.5.193:3600/account/register
+
+{
+    "fname": "a",
+    "lname": "cd",
+    "phone_number" : "1020304050",
+    "emergency_contact" : "1024203510",
+    "email": "subham@gmail.com",
+    "password" : "Subham2003",
+}
